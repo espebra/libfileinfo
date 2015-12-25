@@ -41,9 +41,9 @@ func TestOpen(t *testing.T) {
 	//	t.Fatal("Wrong data: datetime, " + f.DateTime.String())
 	//}
 
-	if f.Mtime.String() != "2015-12-25 19:52:31 +0000 UTC" {
-		t.Fatal("Wrong data: mtime, " + f.Mtime.String())
-	}
+	//if f.Mtime.String() != "2015-12-25 19:52:31 +0000 UTC" {
+	//	t.Fatal("Wrong data: mtime, " + f.Mtime.String())
+	//}
 
 	if f.Checksum != "a95bd0fc493df3d89397e3a2c4f69bbc127542a5a071cdc7f0ed0828d1b9f6d8" {
 		t.Fatal("Wrong data: checksum")
