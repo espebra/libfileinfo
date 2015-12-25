@@ -19,7 +19,7 @@
     )
     
     func main() {
-    	var fpath = "testing/IMG_3679.jpg"
+            var fpath = "testing/IMG_3679.jpg"
     
             f, err := libfileinfo.Open(fpath)
             if err != nil {
