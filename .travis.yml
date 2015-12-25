@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - tip
+
+install:
+  - go get github.com/rwcarlsen/goexif/exif
+
+script:
+  - go test -cover

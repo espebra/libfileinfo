@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/espebra/libfileinfo.svg)](https://travis-ci.org/espebra/libfileinfo)
+
 # libfileinfo
 
 ## Testing
